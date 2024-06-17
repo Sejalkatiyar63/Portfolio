@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <title>
+            
+            skit project
+        </title>
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/hover-min.css"rel="stylesheet">
+        <link href="fonts/fontAwesome.otf" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.js" rel="stylesheet">
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.js"></script>
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"rel="stylesheet">
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+     <title>
+         my portpolio
+     </title>
+    </head>
+         
+<style> 
+    
+    
+    .color:hover{
+        border: 2px solid goldenrod;
+    }
+    @keyframes name-of-animation {
+  0%    { opacity: 0; margin-left: 80px;}
+  20%   { opacity: 0;margin-top: 90px;  }
+  80%   { opacity: 100; }
+  100%  { opacity: 100; }
+}
+    
+
+#drop {
+  animation: name-of-animation 5s ease-in-out;
+}
+    #s1:hover{width: 100px;}
+        
+    }
+    #1:hover{
+     transform: skewY(20deg);
+       
+    }
+    .image {
+  opacity: 1;
+  display: block;
+  width: 100px;
+  height:400px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+    #12{
+         background-color:rgba(0,0,0,0.55);width: 300px; height: 100px; 
+        
+    }
+    
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+   
+.text {
+ 
+  color: wheat;
+  font-size: 26px;
+  padding: 16px 32px;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+    container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+   
+ }
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:rgba(0,0,0,0.55);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+   
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+    .btn:hover{
+   transform:rotate3d(50deg);
+    }
+   
+    .left:hover
+    {
+        margin-left: 50px;
+        color: aqua;
+       box-shadow: 4px 5px 5px;
+        transition: 3s ease-in-out;
+       background-color:grey;
+         border-radius: 5px;
+        box-decoration-break: slice;
+        
+    }
+    .left1:hover
+    {
+        margin-right: 20px;
+        color: aqua;
+       box-shadow: 4px 5px 5px;
+        border-radius: 5px;
+        transition: 3s ease-in-out;
+       background-color:dimgray;
+        box-decoration-break: lice;
+        
+    }
+    #s1:hover{
+         margin-left:  200px;
+    }
+     </style>
+    <body>
+        <div class="col-sm-12" style="min-height: 1000px; padding: 0px; background-color: black;" id="icon-up">
+  <div class="col-sm-2" style="min-height: 1000px; padding: 0px; background-color: black; border-right:3px solid goldenrod; box-shadow: 4px 4px 6px; position: fixed;z-index: 1;
+                               top: 0;overflow: hidden;">
+      <div style="border-bottom: 4px solid goldenrod; box-shadow: 4px 4px 6px;">
+      <img src="skit/me3.jpg"  style="height: 200px; width: 200px;border-radius: 50%; border: 3px solid black; margin:20px;"></div>
+          <div style="margin-left: 30px; margin-top: 50px;">
+             <div style="margin: 15px; font-size: 20px; ">
+                      <a href="#home" style="color: white;text-decoration: none;" class="left">Home</a>
+                  </div>
+                      <div style="margin: 15px; font-size: 20px; ">
+                      <a href="#about" style="color: white;text-decoration: none;" class="left1">About</a>
+                  </div>
+                      <div style="margin: 15px; font-size: 20px; ">
+                      <a href="#resume" style="color: white;text-decoration: none;" class="left">Resume</a>
+                  </div>
+                      <div style="margin: 15px; font-size: 20px; ">
+                      <a href="#portfolio" style="color: white;text-decoration: none;" class="left1">Portfolio</a>
+                  </div>
+                      <div style="margin: 15px; font-size: 20px; ">
+                      <a href="#blog" style="color: white;text-decoration: none;" class="left">Blog</a>
+                  </div>
+                      <div style="margin: 15px; font-size: 20px; ">
+                      <a href="#contact" style="color: white;text-decoration: none;" class="left1">Contact</a>
+                      </div>
+                      <div style="   margin: 40px; text-align: center;  border: 3px solid orange;  border-radius: 30px; height: 40px;box-shadow: 3px 3px 3px goldenrod; " class="btn">
+                          <a href="#" style=" font-size: 20px; text-decoration: none;color: orange;" > Hire Me</a></div>
+          </div>
+          
+
+        </div>
+            
+            
+            
+              <div class="col-sm-10" style=" width: 100%; padding: 0px; background-color: gold;" id="home">
+                  <div><img src="skit/IrF.gif" style="width: 100%;height: 800px; filter: brightness(50%); position: absolute;"> 
+                      </div>
+                   <div style="position: relative;margin-top: 250px;"><p style="text-align: center; color: white; font-size: 60px; ">
+                           Hii , I am <span style="color: goldenrod; "> <b>Sejal Katiyar</b></span></p>
+                          
+                            <h3 style="color: grey;text-align: center; font-family:
+                               afar;"> I am a frontend web developer. I can provide clean code and pixel perfect design.<br>
+I also make website more & more interactive with web animations.
+
+</h3>
+                                                                       </div>
+                   <div style="margin-left: 40%;color: grey;font-size: 30px;display:flex; position: relative;">
+                         <div style="border: 3px solid gray;border-radius: 50%; height: 60px;width: 60px;margin: 10px; "> <i class="fa fa-facebook" style="margin: 10px ;color: white;" ></i></div> 
+               <div style="border: 3px solid gray;border-radius: 50%; height: 60px;width: 60px; margin: 10px;margin: 10px; "> <i class="fa fa-twitter" style="margin: 10px; color: white;"></i></div> 
+               <div style="border: 3px solid gray;border-radius: 50%; height: 60px;width: 60px;margin: 10px;margin: 10px; "> <i class="fa fa-github" style="margin:10px;  color: white;"></i>
+              </div>
+                            
+                         
+                                </div>
+
+        </div>
+            
+            
+        </div>
+        
+        
+          <div class="col-sm-12" style="min-height: 30px;  padding: 0px; background-color: black;" id="about"> <div><p style="font-size: 40px; color: goldenrod;text-align: center; margin-bottom: 20px; text-shadow: 5px 5px 4px white;"  > ABOUT US </p>
+               <hr style="width: 400px; color: goldenrod; box-shadow: 7px 7px 4px;">
+              <hr style="width: 500px; color: goldenrod; box-shadow: 7px 7px 4px;">
+               <hr style="width: 600px; color: goldenrod; box-shadow: 7px 7px 4px;">
+              </div>
+              
+         
+             
+        </div>
+             
+        <div class="col-sm-12" style="min-height: 600px; padding: 0px; background-color: black;"> 
+              <div class="col-sm-2" style="min-height: 600px; padding: 0px; background-color: palegreen;">   </div>
+            <div class="col-sm-5" style="min-height: 600px; padding: 0px; ">   <img src="C:\Users\tshre\Desktop\sejal.jpg" style="height: 80%; width: 80%; margin: 40px;" id="drop"></div>
+                   
+
+      
+             <div class="col-sm-5" style="min-height: 600px; padding: 0px; ">
+                 <div style=" margin: 40px; color: white; font-size: 20px;"><h1>Hi There! I'm Sejal Katiyar
+</h1>
+                <h2 style="color: goldenrod;">Web Designer</h2>
+                     <br>
+                 <p> "I am a Web Designer with a strong focus on digital branding. Visul design seeks to attract, inspire,  faithfully create desires and motivate people to respond to messages, with a view to making a favorable impact."</p>
+                     <br>
+                 <P> Birthday     <spa>      :    </spa> 08 June 2006</P>
+                 <p>Phone <spa> :</spa>+9189-5746-8930</p>
+                 <p> Email<spa> :</spa>shejalkatiyar63@gmail.com</p>
+                 <p> From<spa> :</spa>Rajur Kapur in Idia</p>
+                 <p> Laguage<spa> :</spa>Hinglish</p>
+                 <p> Freelance<spa> :</spa>Availble</p>
+        </div>
+                 <div style="   margin: 40px; text-align: center;  border: 3px solid goldenrod;  border-radius: 30px; height: 40px; width: 180px;  box-shadow: 3px 3px 3px goldenrod;">
+                          <a href="#" style=" font-size: 20px; text-decoration: none;color: orange;"> Download</a></div>
+                         
+            <br>
+        <br>
+            </div>
+           
+        </div>    
+                  
+            <br>
+        <br>
+            
+        
+            
+         <div class="col-sm-12" style="min-height: 30px;  padding: 0px; background-color: black;"> 
+             <br>
+             <br>
+             <br>
+             <br><div style="margin-left: 30%;" >
+             
+             <p style="font-size: 40px; color: goldenrod; margin-left: 40%; text-shadow: 5px 5px 4px white;" > SERVICES </p>
+               <hr style="width: 400px; color: goldenrod; box-shadow: 7px 7px 4px;">
+              <hr style="width: 500px; color: goldenrod; box-shadow: 7px 7px 4px;">
+               <hr style="width: 600px; color: goldenrod; box-shadow: 7px 7px 4px;">
+              <br>
+             <div style="display: inline;margin-left: 90%; "><a href="#icon-up"> <div style="border: 3px solid grey; border-radius: 50%; z-index: 1; left: 95%; top: 90%; position: fixed; height: 55px; width: 50px;" ><i class="fa fa-arrow-up"  style="font-size: 40px; color:grey; z-index: 1;top: 90%; position: fixed;"></i></div></a>
+    </div>
+             </div>
+             
+        </div>
+              <div class="col-sm-12" style="min-height: 700px; padding: 0px; background-color: black;"> 
+                  <div class="col-sm-12" style="min-height: 400px; padding: 0px; background-color: black;"> 
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px;  "> 
+                  
+        </div>
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px; "> 
+                       <div  style="margin: 10px;border: 3px solid gray;" class="color"><div style="color: gray; border: 2px solid gray;border-radius: 50%;height: 90px; width: 90px;margin-left: 150px; margin-top: 40px;  " >  <i class="fa fa-users " style="font-size: 50px;margin: 10px;  " ></i></div>
+                           <br>
+                       <h2 style="text-align: center; color: goldenrod;"> Sketches</h2>
+                           
+                           <h3 style="text-align: center; color: white;"> Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</h3>
+                  </div>
+        </div>
+        
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px; ">
+                       <div style="margin: 10px;border: 3px solid gray;"> <div style="color: gray; border: 2px solid gray;border-radius: 50%;height: 90px; width: 90px;margin-left: 150px; margin-top: 40px;  " >  <i class="fa fa-dropbox" aria-hidden="true" style="font-size: 50px;margin: 10px;  "></i> </div>
+                           <br>
+                       <h2 style="text-align: center; color: goldenrod;"> UI/UX Design</h2>
+                           <h3 style="text-align: center; color: white;"> Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</h3>
+                       </div>
+                       
+                  
+        </div>
+        
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px; "> 
+                  <div  style="margin: 10px;border: 3px solid gray;"><div style="color: gray; border: 2px solid gray;border-radius: 50%;height: 90px; width: 90px;margin-left: 150px; margin-top: 40px;  " >  
+                      <i class="fa fa-spinner" aria-hidden="true" style="font-size: 50px;margin: 10px;  "></i></div> <br><h2 style="text-align: center; color: goldenrod;"> Product Design</h2>
+                      
+                           <h3 style="text-align: center; color: white;"> Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</h3>
+                       </div>
+                       
+        </div>
+                  </div>
+                   <div class="col-sm-12" style="min-height: 400px; padding: 0px; background-color: black;"> 
+                      
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px; ">
+                       
+        </div>
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px; "> 
+                       <div  style="margin: 10px;border: 3px solid gray;"> <div style="color: gray; border: 2px solid gray;border-radius: 50%;height: 90px; width: 90px;margin-left: 150px; margin-top: 40px;  " >  <i class="fa fa-cc-diners-club" aria-hidden="true" style="font-size: 50px;margin: 10px;  "></i></div>
+                            <br><h2 style="text-align: center; color: goldenrod;"> App Design</h2>
+                          
+                           <h3 style="text-align: center; color: white;"> Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</h3>
+                       </div>
+                  
+        </div>
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px;"> 
+                  <div  style="margin: 10px;border: 3px solid gray;"><div style="color: gray; border: 2px solid gray;border-radius: 50%;height: 90px; width: 90px;margin-left: 150px; margin-top: 40px;  " >   <i class="fa fa-file-archive-o" aria-hidden="true" style="font-size: 50px;margin: 10px;  "></i></div>
+                       <br>
+                       <h2 style="text-align: center; color: goldenrod;"> Motion Graphics</h2>
+                     
+                           <h3 style="text-align: center; color: white;"> Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</h3>
+                       </div>
+        </div>
+                        <div class="col-sm-3" style="min-height: 400px; padding: 0px;  "> 
+                            <div  style="margin: 10px;border: 3px solid gray;"> <div style="color: gray; border: 2px solid gray;border-radius: 50%;height: 90px; width: 90px;margin-left: 150px; margin-top: 40px;  " >  <i class="fa fa-gg" aria-hidden="true" style="font-size: 50px;margin: 10px;  "></i></div> <br>
+                            <h2 style="text-align: center; color: goldenrod;"> Responsive Design</h2>
+                               
+                           <h3 style="text-align: center; color: white;"> Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</h3>
+                            </div>
+        </div>
+                  </div>
+        
+        </div>
+        <br>
+        <br>
+        
+         <div class="col-sm-12" style="min-height: 30px;  padding: 0px; background-color: black;"><br>
+        <br>
+             <br>
+             <br>
+             <br>
+        <br><p style="font-size: 40px; color: goldenrod;text-align: center; margin-bottom: 20px; text-shadow: 5px 5px 4px white;"  >MY SKILLS </p>
+               <hr style="width: 400px; color: goldenrod; box-shadow: 7px 7px 4px;">
+              <hr style="width: 500px; color: goldenrod; box-shadow: 7px 7px 4px;">
+               <hr style="width: 600px; color: goldenrod; box-shadow: 7px 7px 4px;">
+              
+         
+             
+        </div>
+        <div class="col-sm-12" style="min-height: 400px; padding: 0px; background-color: black;"> 
+              <div class="col-sm-2" style="min-height: 400px; padding: 0px; ">   </div>
+           
+ <div class="col-sm-5" style="min-height: 00px; padding: 0px; ">
+     <div style="margin: 40px;">
+     <h1 style="text-align: left; color:  goldenrod;"> All the skills that I have in that field of work are mentioned.</h1>
+     <br>
+     <h3 style="text-align: left; color:  grey;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</h3>
+     <h3 style="text-align: left; color:  grey;">
+
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
+Photoshop
+</h3>
+        </div>
+            
+            
+            </div>
+      
+            <div class="col-sm-5" style="min-height: 400px; padding: 0px; ">
+              
+                <div style="margin: 30px;"><a href="#" style="text-decoration: none;"> <h3> Photoshop<span style="margin-left: 400px;"> 95%</span></h3> </a>
+               <hr style="width: 100%;" >
+                
+                    <a href="#"> <h3>Motion Graphic<span style="margin-left: 350px;text-decoration: none;"> 75%</span></h3> </a>
+               <hr style="width: 100%;" >
+                
+                    <a href="#"> <h3> Adobe XD<span style="margin-left: 400px; text-decoration: none;"> 90%</span></h3> </a>
+               <hr style="width: 100%;" >
+                
+                    <a href="#"> <h3>UX Design<span style="margin-left: 400px; text-decoration: none;"> 80%</span></h3> </a>
+               <hr style="width: 100%;" >
+                
+                    <a href="#"> <h3> HTML5<span style="margin-left: 430px; text-decoration: none;"> 85%</span></h3> </a>
+               <hr style="width: 100%;" >
+                
+                    <a href="#"> <h3> CSS3<span style="margin-left: 450px; text-decoration: none;"> 90%</span></h3> </a>
+                
+                </div>
+            
+            </div>
+              
+        </div>
+        <div class="col-sm-12" style="min-height: 30px;  padding: 0px; background-color: black;">
+            <br>
+            <br>
+            <br>
+            <br><div style="margin-left: 30%;" id="portfolio">
+             <p style="font-size: 40px; color: goldenrod; margin-left: 40%; text-shadow: 5px 5px 4px white; font-family: Dancing script;" > PORTFOLEIO </p>
+               <hr style="width: 400px; color: goldenrod; box-shadow: 7px 7px 4px;">
+              <hr style="width: 500px; color: goldenrod; box-shadow: 7px 7px 4px;">
+               <hr style="width: 600px; color: goldenrod; box-shadow: 7px 7px 4px;">
+              <br>
+    </div>
+             
+        </div>
+        <div class="col-sm-12" style="min-height: 700px; padding: 0px; background-color: black;"> 
+              <div class="col-sm-12" style="min-height: 400px; padding: 0px; background-color: black;"> 
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px;"> 
+                  
+        </div>
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px;"><div class="container">
+               <div> <img src="skit/portfolio1.jpg" style="height:350px; width:350px;  " class="image"></div>
+                    <div class="overlay" style="border: 5px double goldenrod;">
+    <div class="text"> Product Design<br>
+        Design/Marketive
+                        
+                        <br>
+                        </div>
+                       <i class="fa fa-plus" style="color: goldenrod;background-color: black;font-size: 30px; margin-left:  200px; margin-top: 20px; border-bottom: 3px solid goldenrod;"></i>
+                      
+               </div>
+               </div>
+                       
+                        
+                  
+        </div>
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px; "> <div class="container">
+               <div> <img src="skit/portfolio2.jpg" style="height:350px; width:350px;  " class="image"></div>
+                    <div class="overlay" style="border: 5px double goldenrod;">
+    <div class="text"> Product Design<br>
+        Design/Marketive
+                        
+                        <br>
+                        </div>
+                       <i class="fa fa-plus" style="color: goldenrod;background-color: black;font-size: 30px; margin-left:  200px; margin-top: 20px; border-bottom: 3px solid goldenrod;"></i>
+                      
+               </div>
+               </div>
+                       
+                       
+                  
+        </div>
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px; "><div class="container">
+               <div> <img src="skit/portfolio3.jpg" style="height:350px; width:350px;  " class="image"></div>
+                    <div class="overlay" style="border: 5px double goldenrod;">
+    <div class="text"> Product Design<br>
+        Design/Marketive
+                        
+                        <br>
+                        </div>
+                       <i class="fa fa-plus" style="color: goldenrod;background-color: black;font-size: 30px; margin-left:  200px; margin-top: 20px; border-bottom: 3px solid goldenrod;"></i>
+                      
+               </div>
+               </div>
+                       
+                       
+        </div>
+            </div>
+           
+  
+          <div class="col-sm-12" style="min-height: 400px; padding: 0px; background-color: black;"> 
+              <div class="col-sm-12" style="min-height: 400px; padding: 0px; background-color: black;"> 
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px;"> 
+                  
+        </div>
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px;"><div class="container">
+               <div> <img src="skit/portfolio4.jpg" style="height:350px; width:350px;  " class="image"></div>
+                    <div class="overlay" style="border: 5px double goldenrod;">
+    <div class="text"> Product Design<br>
+        Design/Marketive
+                        
+                        <br>
+                        </div>
+                       <i class="fa fa-plus" style="color: goldenrod;background-color: black;font-size: 30px; margin-left:  200px; margin-top: 20px; border-bottom: 3px solid goldenrod;"></i>
+                      
+               </div>
+               </div>
+                       
+                        
+                  
+        </div>
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px; "> <div class="container">
+               <div> <img src="skit/portfolio5.jpg" style="height:350px; width:350px;  " class="image"></div>
+                    <div class="overlay" style="border: 5px double goldenrod;">
+    <div class="text"> Product Design<br>
+        Design/Marketive
+                        
+                        <br>
+                        </div>
+                       <i class="fa fa-plus" style="color: goldenrod;background-color: black;font-size: 30px; margin-left:  200px; margin-top: 20px; border-bottom: 3px solid goldenrod;"></i>
+                      
+               </div>
+               </div>
+                       
+                       
+                  
+        </div>
+                   <div class="col-sm-3" style="min-height: 400px; padding: 0px; "><div class="container">
+               <div> <img src="skit/portfolio6.jpg" style="height:350px; width:350px;  " class="image"></div>
+                    <div class="overlay" style="border: 5px double goldenrod;">
+    <div class="text"> Product Design<br>
+        Design/Marketive
+                        
+                        <br>
+                        </div>
+                       <i class="fa fa-plus" style="color: goldenrod;background-color: black;font-size: 30px; margin-left:  200px; margin-top: 20px; border-bottom: 3px solid goldenrod;"></i>
+                      
+               </div>
+               </div>
+                       
+                       
+        </div>
+            </div>
+           
+  </div>
+        </div>
+       
+         <div class="col-sm-12" style="min-height: 30px;  padding: 0px; background-color: black;"> <br>
+             <br>
+             <br><div style="margin-left: 30%;"id="reviews">
+             <p style="font-size: 40px; color: goldenrod; margin-left: 40%; 
+                       text-shadow:5px 5px 4px white;" > REVIEWS</p>
+               <hr style="width: 400px; color: goldenrod; box-shadow: 7px 7px 4px;">
+              <hr style="width: 500px; color: goldenrod; box-shadow: 7px 7px 4px;">
+               <hr style="width: 600px; color: goldenrod; box-shadow: 7px 7px 4px;">
+              <br>
+    </div>
+             
+        </div>
+        <div class="col-sm-12" style="min-height: 600px; padding: 0px; background-color: black; "> 
+                   <div class="col-sm-3" style="min-height: 600px; padding: 0px;"> 
+                  
+        </div>
+             <div class="col-sm-3" style="min-height: 530px; padding: 0px;border: 10px solid white;border-radius: 20px; "> 
+                 <div ><div style="border: 2px dashed goldenrod; margin:20px;border-radius: 10px; "> <h4 style="margin:20px;color: goldenrod;">"I am a frontend web developer I can provide clean code and pixel perfect design
+                     I also make website more"..</h4></div>
+                     <div style="margin: 60px;"> <img src="skit/kajal2.jpg" style="width: 180px ;height: 180px;border-radius: 100px; margin-left: 50px; border: 3px dashed goldenrod;">
+                     </div>
+                     <h3 style="text-align: center; color: goldenrod; text-decoration: wavy underline;">Kajal <br>
+                        
+                     <span style="color: white;text-decoration: wavy underline;"> Frontend Developer</span></h3>
+                     
+</div>
+               
+</div>
+             
+             <div class="col-sm-3" style="min-height: 530px; padding: 0px; border: 10px solid white;border-radius: 20px;">   <div ><div style="border: 2px dashed goldenrod; margin:20px; border-radius: 10px; "> <h4 style="margin:20px;color: goldenrod;">"I am a frontend web developer I can provide clean code and pixel perfect design
+                     I also make website more"..</h4></div>
+                     <div style="margin: 60px;"> <img src="skit/me3.jpg" style="width: 180px ;height: 180px;border-radius: 100px; margin-left: 50px; border: 3px dashed goldenrod;">
+                     </div>
+                     <h3 style="text-align: center; color: goldenrod; text-decoration: wavy underline;">Sejal Katiyar<br>
+                        
+                     <span style="color: white;text-decoration: wavy underline;"> Frontend Developer</span></h3>
+                     
+</div>
+                  
+        </div>
+             <div class="col-sm-3"  style="min-height: 530px; padding: 0px;border: 10px solid white;border-radius: 20px;">   <div ><div style="border: 2px dashed goldenrod; margin:20px;border-radius: 10px;  "> <h4 style="margin:20px;color: goldenrod;">"I am a frontend web developer I can provide clean code and pixel perfect design
+                     I also make website more"..</h4></div>
+                     <div style="margin: 60px;"> <img src="skit/nidhi2.jpg" style="width: 180px ;height: 180px;border-radius: 100px; margin-left: 50px; border: 3px dashed goldenrod;">
+                     </div>
+                     <h3 style="text-align: center; color: goldenrod; text-decoration: wavy underline;">Neha Chaudhary<br>
+                        
+                     <span style="color: white;text-decoration: wavy underline;"> Frontend Developer</span></h3>
+                     
+</div>
+                  
+        </div>  
+            
+        </div>
+        
+         <div class="col-sm-12" style="min-height: 30px;  padding: 0px; background-color: black;"><br>
+             <br>
+             <br><div style="margin-left: 30%;" id="blog">
+             <p style="font-size: 40px; color: goldenrod; margin-left: 40%; text-shadow: 5px 5px 4px white;" >BLOGS</p>
+               <hr style="width: 400px; color: goldenrod; box-shadow: 7px 7px 4px;">
+              <hr style="width: 500px; color: goldenrod; box-shadow: 7px 7px 4px;">
+               <hr style="width: 600px; color: goldenrod; box-shadow: 7px 7px 4px;">
+              <br>
+    </div>
+             
+        </div>
+        <div class="col-sm-12" style="min-height: 30px; padding: 0px; background-color: black; "> 
+                   <div class="col-sm-3" style="min-height: 600px; padding: 0px;"> 
+                       
+                  
+        </div>
+             <div class="col-sm-3" style="min-height: 300px; padding: 0px;"> 
+                 <div>
+                 <img src=skit/blog1.jpg style="margin-right: : 30px;"></div>
+                 <br>
+                 <div><p style="color: goldenrod;">BY:Admin</p>
+                 <p style="color: goldenrod;">Date:06 May 2024</p>
+                 <h3 style="color: white;">Were there any mistakes you've make a Designer</h3></div>
+                  
+        </div>
+             <div class="col-sm-3" style="min-height: 300px; padding: 0px;"> 
+                  <div>
+                 <img src=skit/blog2.jpg style="margin-right: : 30px;"></div>
+                 <br>
+                 <div><p style="color: goldenrod;">BY:Admin</p>
+                 <p style="color: goldenrod;">Date:06 May 2024</p>
+                 <h3 style="color: white;">Were there any mistakes you've make a Designer</h3></div>
+        </div>
+             <div class="col-sm-3" style="min-height: 300px; padding: 0px;"> 
+               <div>
+                 <img src=skit/blog3.jpg style="margin-right: : 30px;"></div>
+                 <br>
+                 <div><p style="color: goldenrod;">BY:Admin</p>
+                 <p style="color: goldenrod;">Date:06 May 2024</p>
+                 <h3 style="color: white;">Were there any mistakes you've make a Designer</h3></div>   
+        </div>
+            
+            
+        </div>
+      <div class="col-sm-12" style="min-height: 30px;  padding: 0px; background-color: black;" id="contact"> <p style="font-size: 40px; color: goldenrod;text-align: center; margin-bottom: 20px; text-shadow: 5px 5px 4px white;"  > CONTACT ME </p>
+               <hr style="width: 400px; color: goldenrod; box-shadow: 7px 7px 4px;">
+              <hr style="width: 500px; color: goldenrod; box-shadow: 7px 7px 4px;">
+               <hr style="width: 600px; color: goldenrod; box-shadow: 7px 7px 4px;">
+              
+         
+             
+        </div>
+        <div class="col-sm-12" style="min-height: 600px; padding: 0px; background-color: black;"> 
+              <div class="col-sm-2" style="min-height: 600px; padding: 0px; background-color: palegreen;">   </div>
+            <div class="col-sm-5" style="min-height: 600px; padding: 0px; ">
+                 <form id="contact_form" action="#">
+                <div class="row">
+                  <lebel>
+                    <input type="text"  name="full-name" placeholder="Full Name" required style=" border: 3px solid blue; border-radius: 15px; margin: 20px; width: 40%; text-align: left;font-size: 20px;">
+                   
+                  
+                    <input type="email" name="email" placeholder="Email" required style=" border: 3px solid blue; border-radius: 15px; margin: 20px; width: 40%; text-align: left;font-size: 20px;">
+                    </lebel>
+                </div>
+                <input type="text"  name="subject" placeholder="Subject" style=" border: 3px solid blue; border-radius: 15px; margin: 10px; width: 90%; font-size: 20px;">
+                <textarea cols="100" rows="10" placeholder="Message" name="message" style=" border: 3px solid blue; border-radius: 15px; margin: 10px; width: 90%; font-size: 20px;"></textarea>
+                <button onclick="fun()"  type="submit" name="button" style=" border: 3px solid blue; border-radius: 15px; margin:5px; width: 90%; font-size: 20px;" >submit</button>
+                     
+              </form>
+                </div>
+      
+        <div class="col-sm-5" style="min-height: 600px; padding: 0px; ">                       <div >
+                                         <br>
+                                       
+             <div style="border: 3px solid gray;border-radius: 50%; height: 60px;width: 60px;margin: 10px; margin-left: 270px;">  
+                    <i class="fa fa-user " style="font-size: 30px;margin-left: 10px; 
+                                                      margin-top: 10px; color: white; "></i></div>
+
+                    <h4  style="color: goldenrod;text-align: center;margin-right: 30px;">Address</h4>
+                    <h4   style="color: goldenrod;text-align: center;margin-right: 30px;">Kanpur, India</h4>
+                  
+                     
+                     </div>
+               
+                    <div>
+                         <div style="border: 3px solid gray;border-radius: 50%; height: 60px;width: 60px;margin: 10px; ">  <i class="fa fa-phone"  style="font-size: 40px; margin-left: 10px; 
+                                                      margin-top: 10px; color: white;"></i></div> 
+                    <h4 style="color: goldenrod">Phone</h4>
+                    <h4 style="color: goldenrod"><a href="tel:+15173977100" style="color: goldenrod;">+9189-5746-8930</a> </h4></div>
+        
+     <div>
+               
+                 <div style="border: 3px solid gray;border-radius: 50%; height: 60px;width: 60px;margin: 10px; margin-left: 270px;">  
+                    <i class="fa fa-envelope " style="font-size: 30px; margin-left: 10px; 
+                                                      margin-top: 10px;color: white; "></i></div> 
+                    <h4  style="color: goldenrod;text-align: center; margin-right: 30px;">E-mail</h4>
+                    <h4  style="color: goldenrod;text-align: center;"><a style="color: goldenrod;text-align: center;" href="mailto:abcdefg@gmail.com">shejalkatiyar63@gmail.com</a> </h4>
+                     </div>
+                     
+                     
+                   
+        
+                     
+          <div style="   margin-left: 200px;  margin-top: 50px; text-align: center;  border: 3px solid goldenrod;  border-radius: 30px; height: 40px; width: 180px;box-shadow: 3px 3px 3px goldenrod; ">
+                          <a href="#" style=" font-size: 20px; text-decoration: none;color: orange;">Connected me</a></div>
+                   
+
+            
+             
+              </div>
+            
+      </div>
+        
+           
+        
+             
+        
+    </body>
+    
+    
+</html>
